@@ -1,0 +1,23 @@
+body {
+	background-image: linear-gradient(to right, rgba(10, 10, 100, 0.6), rgba(0, 0, 0, 0.9)),
+		url(../static/1122.jpeg);
+}
+.form-control{
+	box-shadow: 3px 3px goldenrod;
+	transition: .5s ease-in;
+}
+.form-control:hover{
+	transform: perspective(1000px) rotateX(1.56deg) rotateY(-2.45deg);
+	transition: .5s;
+}
+.jp{
+	border: 2px solid black;
+	padding:8px;
+	box-shadow: 0px 2px 2px 2px grey;
+
+	
+}
+.jp:hover{
+	transform: perspective(1000px) rotateX(1.56deg) rotateY(2.45deg);
+	transition: .5s;
+}
