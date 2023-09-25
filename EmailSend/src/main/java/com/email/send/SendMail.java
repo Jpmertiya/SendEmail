@@ -21,7 +21,8 @@ public class SendMail {
 		
 		SimpleMailMessage message=new SimpleMailMessage();
 		
-		message.setFrom("js5946168@gmail.com");
+		// enter your email address
+		message.setFrom("yourEmail");
 		message.setTo(toEmail);
 		message.setSubject(subject);
 		message.setText(body);
